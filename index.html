@@ -9,193 +9,195 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <!-- Inicio  -->
-    <header>
-      <div id="home">
-        <div id="logo">
-          <p>Portifólio</p>
+    <div id="allCta">
+      <!-- Inicio  -->
+      <header>
+        <div id="home">
+          <div id="logo">
+            <p>Portifólio</p>
+          </div>
+          <div id="headerMenu">
+            <nav>
+              <ul>
+                <li><a href="#services">Serviços</a></li>
+                <li><a href="#contact">Contato</a></li>
+                <li><a href="#projectsText">Projetos</a></li>
+              </ul>
+            </nav>
+          </div>
         </div>
-        <div id="headerMenu">
-          <nav>
-            <ul>
-              <li><a href="#">Serviços</a></li>
-              <li><a href="#">Contato</a></li>
-              <li><a href="#">Projetos</a></li>
-            </ul>
-          </nav>
-        </div>
-      </div>
-    </header>
+      </header>
 
-    <!-- Conteudo Principal -->
-    <main>
-      <!-- Modal -->
-      <div class="modal">
-        <div class="modalContent">
-          <img id="modalImg" src="img/portfolio1.svg" alt="" />
-        </div>
-        <span id="btClose">&times;</span>
-      </div>
+      <!-- Conteudo Principal -->
+      <main>
+        <!-- Header container -->
+        <section>
+          <div id="container">
+            <div id="headerCta">
+              <h1>
+                Olá, meu nome é <br />
+                Maria
+              </h1>
+              <p class="textPg">
+                Sou programadora e gostaria de apresentar meu trabalho <br />
+                para você através deste portifólio.
+              </p>
+              <a id="headerBtn" href="#services">Meus Serviços</a>
+            </div>
+            <div id="headerImg">
+              <img src="img/perfil.jpg" alt="foto de perfil" />
+            </div>
+          </div>
+        </section>
 
-      <!-- Header container -->
-      <section>
-        <div id="container">
-          <div id="headerCta">
-            <h1>
-              Olá, meu nome é <br />
-              Maria
-            </h1>
-            <p class="textPg">
-              Sou programadora e gostaria de apresentar meu trabalho <br />
-              para você através deste portifólio.
+        <!-- Clientes  -->
+        <section>
+          <div id="clients">
+            <p>
+              Alguns dos<br />
+              meus clientes
             </p>
-            <a id="headerBtn" href="#">Meus Serviços</a>
+            <img src="img/apple.svg" alt="logo apple" />
+            <img src="img/slack.svg" alt="logo slack" />
+            <img src="img/spotify.svg" alt="logo spotify" />
           </div>
-          <div id="headerImg">
-            <img src="img/perfil.jpg" alt="foto de perfil" />
-          </div>
-        </div>
-      </section>
+        </section>
 
-      <!-- Clientes  -->
-      <section>
-        <div id="clients">
-          <p>
-            Alguns dos<br />
-            meus clientes
-          </p>
-          <img src="img/apple.svg" alt="logo apple" />
-          <img src="img/slack.svg" alt="logo slack" />
-          <img src="img/spotify.svg" alt="logo spotify" />
-        </div>
-      </section>
+        <!-- Serviços-->
+        <section>
+          <div id="services">
+            <p class="textP">Conheça</p>
+            <h3 class="textH">Meus Serviços</h3>
+          </div>
+          <div id="servicesEx">
+            <div class="servicesText">
+              <img src="img/icon1.svg" alt="" />
+              <h3>Consultoria</h3>
+              <p class="textPgm">
+                Te ajudo a organizar sua empresa<br />
+                e melhorar seus resultados.
+              </p>
+            </div>
+            <div class="servicesText">
+              <img src="img/icon2.svg" alt="" />
+              <h3>E-mail Marketing</h3>
+              <p class="textPgm">
+                Gerenciar campanhas é difícil.<br />
+                Conte comigo para te ajudar.
+              </p>
+            </div>
+            <div class="servicesText">
+              <img src="img/icon3.svg" alt="" />
+              <h3>Criação de Sites</h3>
+              <p class="textPgm">
+                Desenvolvo seu site inteiro<br />
+                do zero e te entrego prontinho.
+              </p>
+            </div>
+          </div>
+        </section>
 
-      <!-- Serviços-->
-      <section>
-        <div id="services">
-          <p class="textP">Conheça</p>
-          <h3 class="textH">Meus Serviços</h3>
-        </div>
-        <div id="servicesEx">
-          <div class="servicesText">
-            <img src="img/icon1.svg" alt="" />
-            <h3>Consultoria</h3>
-            <p class="textPgm">
-              Te ajudo a organizar sua empresa<br />
-              e melhorar seus resultados.
-            </p>
+        <!-- Contatos  -->
+        <section>
+          <div id="contact">
+            <div id="contactImg">
+              <img src="img/contato.jpg" alt="foto de uma mulher no notebook" />
+            </div>
+            <div id="contactCta">
+              <p class="textP">Economize seu tempo</p>
+              <h3 class="textH">Ganhe mais dinheiro</h3>
+              <p class="textPg">
+                Digite aqui seu e-mail e eu entrarei em contato <br />
+                para fornecer um orçamento gratuito
+              </p>
+              <form action="mailto:seuemail@exemplo.com" method="post">
+                <input
+                  id="contactEmail"
+                  type="email"
+                  name="contactEmail"
+                  required="required"
+                  placeholder="Seu e-mail"
+                />
+                <br />
+                <button id="sendBtn" type="submit">Enviar</button>
+              </form>
+            </div>
           </div>
-          <div class="servicesText">
-            <img src="img/icon2.svg" alt="" />
-            <h3>E-mail Marketing</h3>
-            <p class="textPgm">
-              Gerenciar campanhas é difícil.<br />
-              Conte comigo para te ajudar.
-            </p>
-          </div>
-          <div class="servicesText">
-            <img src="img/icon3.svg" alt="" />
-            <h3>Criação de Sites</h3>
-            <p class="textPgm">
-              Desenvolvo seu site inteiro<br />
-              do zero e te entrego prontinho.
-            </p>
-          </div>
-        </div>
-      </section>
+        </section>
 
-      <!-- Contatos  -->
-      <section>
-        <div id="contact">
-          <div id="contactImg">
-            <img src="img/contato.jpg" alt="foto de uma mulher no notebook" />
+        <!-- Projetos -->
+        <section>
+          <div id="projectsText">
+            <p class="textP">Conheça os meus</p>
+            <h3 class="textH">Projetos</h3>
           </div>
-          <div id="contactCta">
-            <p class="textP">Economize seu tempo</p>
-            <h3 class="textH">Ganhe mais dinheiro</h3>
-            <p class="textPg">
-              Digite aqui seu e-mail e eu entrarei em contato <br />
-              para fornecer um orçamento gratuito
-            </p>
-            <form action="">
-              <input
-                type="text"
-                name="contactEmail"
-                required="required"
-                placeholder="Seu e-mail"
+          <div id="projectsImg">
+            <div class="cardImg">
+              <img
+                class="smallImg"
+                src="img/portfolio1.svg"
+                alt="exemplo de site"
               />
-              <br />
-              <button id="sendBtn" type="submit">Enviar</button>
-            </form>
+            </div>
+            <div class="cardImg">
+              <img
+                class="smallImg"
+                src="img/portfolio2.svg"
+                alt="exemplo de site"
+              />
+            </div>
+            <div class="cardImg">
+              <img
+                class="smallImg"
+                src="img/portfolio3.svg"
+                alt="exemplo de site"
+              />
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
+      </main>
 
-      <!-- Projetos -->
-      <section>
-        <div id="projetosText">
-          <p class="textP">Conheça os meus</p>
-          <h3 class="textH">Projetos</h3>
+      <!-- Rodapé  -->
+      <footer>
+        <div id="info">
+          <div id="infoText">
+            <ul>
+              <li>
+                <a href="#services"><p>Serviços</p></a>
+              </li>
+              <li>
+                <a href="#contact"><p>Contato</p></a>
+              </li>
+              <li>
+                <a href="#projectsText"><p>Projetos</p></a>
+              </li>
+            </ul>
+          </div>
+          <div id="infoDireitos">
+            <p>Todos os direitos reservados Eric Bortoleto &copy 2023</p>
+          </div>
+          <div id="infoImg">
+            <a target="_blank" href="https://github.com/">
+              <img src="img/github.svg" alt="logo github" />
+            </a>
+            <a target="_blank" href="https://www.linkedin.com/">
+              <img src="img/linkedin.svg" alt="logo linkedin" />
+            </a>
+            <a target="_blank" href="https://www.instagram.com/">
+              <img src="img/instagram.svg" alt="logo instagram" />
+            </a>
+          </div>
         </div>
-        <div id="projetosImg">
-          <div class="cardImg">
-            <img
-              class="smallImg"
-              src="img/portfolio1.svg"
-              alt="exemplo de site"
-            />
-          </div>
-          <div class="cardImg">
-            <img
-              class="smallImg"
-              src="img/portfolio2.svg"
-              alt="exemplo de site"
-            />
-          </div>
-          <div class="cardImg">
-            <img
-              class="smallImg"
-              src="img/portfolio3.svg"
-              alt="exemplo de site"
-            />
-          </div>
-        </div>
-      </section>
-    </main>
 
-    <!-- Rodapé  -->
-    <footer>
-      <div id="info">
-        <div id="infoText">
-          <ul>
-            <li>
-              <a href="#"><p>Serviços</p></a>
-            </li>
-            <li>
-              <a href="#"><p>Contato</p></a>
-            </li>
-            <li>
-              <a href="#"><p>Projetos</p></a>
-            </li>
-          </ul>
+        <!-- Modal -->
+        <div class="modal">
+          <div class="modalContent">
+            <img id="modalImg" src="img/portfolio1.svg" alt="" />
+          </div>
+          <span id="btClose">&times;</span>
         </div>
-        <div id="infoDireitos">
-          <p>Todos os direitos reservados Eric Bortoleto &copy 2023</p>
-        </div>
-        <div id="infoImg">
-          <a href="#">
-            <img src="img/github.svg" alt="logo github" />
-          </a>
-          <a href="#">
-            <img src="img/linkedin.svg" alt="logo linkedin" />
-          </a>
-          <a href="#">
-            <img src="img/instagram.svg" alt="logo instagram" />
-          </a>
-        </div>
-      </div>
-    </footer>
-
+      </footer>
+    </div>
     <script src="script.js"></script>
   </body>
 </html>
