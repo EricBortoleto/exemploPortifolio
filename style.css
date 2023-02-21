@@ -189,13 +189,12 @@ body {
 #projectsImg {
   display: flex;
   justify-content: space-between;
-  width: 100%;
-  height: auto;
   margin: 40px 0;
 }
 
 #projectsImg img {
-  height: 100%;
+  height: 250px;
+  width: 390px;
 }
 
 #info {
@@ -253,18 +252,19 @@ body {
 }
 
 .smallImg {
-  height: 100%;
   cursor: pointer;
   transition: all linear 0.4s;
 }
 
 .smallImg:hover {
-  transform: scale(1.1);
+  transform: scale(0.9);
 }
+
+
 
 .modal {
   position: fixed;
-  top: 60px;
+  top: 200px;
   visibility: hidden;
   z-index: 1;
   opacity: 0;
@@ -279,7 +279,8 @@ body {
 }
 
 #modalImg {
-  height: 900px;
+  height: 600px;
+  width: 1200px;
   transform: scale(0);
   transition: all linear 0.3s;
 }
